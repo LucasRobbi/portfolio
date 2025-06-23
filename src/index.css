@@ -1,0 +1,49 @@
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "", serif;
+}
+
+div,
+p {
+  font-family: "", sans-serif;
+}
+
+section {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section > div {
+  width: 100%;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (max-width: 990px) {
+  .container {
+    padding-left: 42px;
+    padding-right: 42px;
+  }
+}
