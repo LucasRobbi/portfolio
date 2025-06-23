@@ -1,22 +1,11 @@
-const info = {
-  id_dominio: "",
-  id_politica: "",
+export default info = {
+  email: "lucas.robbi.98@gmail.com",
+  email_link: "mailto:lucas.robbi.98@gmail.com",
 
-  email: "",
-  email_link: "",
+  instagram: "https://www.instagram.com/chickeneetos/",
+  facebook: "https://www.facebook.com/lucas.robbi1",
 
-  instagram: "",
-  facebook: "",
-
-  telefone: "",
-  telefone_link: "",
-  whatsapp: "https://wa.me/99999999?text=",
-
-  endereco: "",
-  maps: "",
-  maps_link: "",
-}
-
-export default info
-
-{/* <iframe src={info.maps} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
+  telefone: "+55 (19) 99953-2325",
+  telefone_link: "tel:+5519999532325",
+  whatsapp: "https://wa.me/5519999532325?text=",
+};
