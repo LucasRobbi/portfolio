@@ -1,4 +1,4 @@
-function ProportionalImage({ src, alt, height }) {
+function ProportionalImage({ src, alt, height, className }) {
   return (
     <div
       style={{
@@ -8,6 +8,7 @@ function ProportionalImage({ src, alt, height }) {
       }}
     >
       <img
+        className={className}
         src={src}
         alt={alt}
         style={{
@@ -17,6 +18,7 @@ function ProportionalImage({ src, alt, height }) {
           width: "100%",
           height: "100%",
           objectFit: "cover",
+          objectPosition: "center",
         }}
       />
     </div>

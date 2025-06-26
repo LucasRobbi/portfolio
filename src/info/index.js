@@ -1,4 +1,4 @@
-export default info = {
+const info = {
   email: "lucas.robbi.98@gmail.com",
   email_link: "mailto:lucas.robbi.98@gmail.com",
 
@@ -9,3 +9,5 @@ export default info = {
   telefone_link: "tel:+5519999532325",
   whatsapp: "https://wa.me/5519999532325?text=",
 };
+
+export default info
